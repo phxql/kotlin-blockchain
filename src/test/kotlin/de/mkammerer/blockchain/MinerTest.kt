@@ -13,6 +13,7 @@ class MinerTest {
         val block4 = Miner.mine(block3.hash, ByteArray(0), DIFFICULTY)
         val block5 = Miner.mine(block4.hash, ByteArray(0), DIFFICULTY)
 
+        println(Block.GENESIS)
         println(block1)
         println(block2)
         println(block3)
